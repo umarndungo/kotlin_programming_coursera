@@ -7,8 +7,8 @@ fun main(args: Array<String>) {
     //println("\n\nLet's work with numbers\n")
     //numbers()
     //numbers_exercise()
-
-    texts()
+    //texts()
+    Boolean()
 
 
 }
