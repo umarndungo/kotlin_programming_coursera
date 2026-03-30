@@ -1,7 +1,7 @@
 fun main(args: Array<String>) {
     var s = "123"
     s = "nm"
-    println("Hello World!")
+    //println("Hello World!")
 
     // NUMBERS
     //println("\n\nLet's work with numbers\n")
@@ -10,7 +10,9 @@ fun main(args: Array<String>) {
     //texts()
     //Boolean()
     //conditionals()
-    conditionalsExercise("Monday")
+    //conditionalsExercise("Monday")
+
+    loops()
 
 
 }
