@@ -8,7 +8,8 @@ fun main(args: Array<String>) {
     //numbers()
     //numbers_exercise()
     //texts()
-    Boolean()
+    //Boolean()
+    conditionals()
 
 
 }
