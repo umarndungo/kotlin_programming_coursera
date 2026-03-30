@@ -47,5 +47,9 @@ fun Boolean(){
     val correct = percent >= 0 && percent <= 100
     println("Your percentage is $correct") // true
 
+    val incorrect = percent < 0 || percent > 100
+    println(incorrect) // false
+
+
 
 }
