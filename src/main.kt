@@ -9,7 +9,8 @@ fun main(args: Array<String>) {
     //numbers_exercise()
     //texts()
     //Boolean()
-    conditionals()
+    //conditionals()
+    conditionalsExercise("Monday")
 
 
 }
