@@ -24,7 +24,7 @@ fun loops() {
 
     println("Nested loops")
     println("To print a square of stars")
-    for (i in 1..5){
+    for (i in 1..5) {
         for (j in 1..5) {
             print("*")
         }
@@ -32,15 +32,65 @@ fun loops() {
     }
 
     println("\n\nTo print a triangle of stars")
-    for (i in 1..5){
+    for (i in 1..5) {
         for (j in 1..i) {
             print("*")
         }
         println()
     }
     println("\n\nTo print an inverted triangle of stars")
-    for (i in 1..5){
+    for (i in 1..5) {
         var numberOfStars = 6 - i
+        for (j in 1..numberOfStars) {
+            print("*")
+        }
+        println()
+    }
+    println("\n\nTo print an inverted triangle of stars using downTo")
+    for (numberOfStars in 5 downTo 1) {
+        for (j in 1..numberOfStars) {
+            print("*")
+        }
+        println()
+    }
+    println("\n\nTo print a parameterized triangle of stars")
+    val height = 10
+    for (i in 1..height) {
+        for (j in 1..i) {
+            print("*")
+        }
+        println()
+    }
+    println("\n\nTo print a parameterized inverted triangle of stars using downTo")
+    val heighty = 9
+    for (numberOfStars in heighty downTo 1) {
+        for (j in 1..numberOfStars) {
+            print("*")
+        }
+        println()
+    }
+
+    println("\n\nTo print a unique triangle of stars: Mid is widest")
+    val width = 5
+    for (i in 1 until width step 2) {
+        for (j in 1..i) {
+            print("*")
+        }
+        println()
+    }
+    for (i in width downTo 1 step 2) {
+        for (j in 1..i) {
+            print("*")
+        }
+        println()
+    }
+    println("\n\nTo print a unique triangle of stars: Reflected Triangle")
+    for (i in 1..5) {
+        val numberOfSpaces = 5 - i
+        for (j in 1..numberOfSpaces) {
+            print(" ")
+        }
+        val numberOfStars = i
         for (j in 1..numberOfStars) {
             print("*")
         }
