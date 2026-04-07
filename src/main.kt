@@ -12,7 +12,8 @@ fun main(args: Array<String>) {
     //conditionals()
     //conditionalsExercise("Monday")
 
-    loops()
+    //loops()
+    loopsExercise()
 
 
 }
