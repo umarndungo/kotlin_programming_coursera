@@ -46,6 +46,13 @@ fun loops() {
         }
         println()
     }
+    println("\n\nAlternative: To print an inverted triangle of stars")
+    for (numberOfStars in 5 downTo 1) {
+        for (i in 1..numberOfStars) {
+            print("*")
+        }
+        println()
+    }
     println("\n\nTo print an inverted triangle of stars using downTo")
     for (numberOfStars in 5 downTo 1) {
         for (j in 1..numberOfStars) {
