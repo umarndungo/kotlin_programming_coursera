@@ -103,4 +103,18 @@ fun loops() {
         }
         println()
     }
+    println("\n\nTo print an isosceles triangle of stars")
+    for (i in 1..5 ) {
+        val numberOfSpaces = 5 - i
+        for (j in 1..numberOfSpaces) {
+            print(" ")
+        }
+        val numberOfStars = i * 2 - 1
+        for (j in 1..numberOfStars) {
+            print("*")
+        }
+        println()
+
+    }
+
 }
